@@ -1,0 +1,17 @@
+1 crear el proyecto
+2 instalar dependecias
+3 crear el script de ejecucion
+4 crear el entrypoint
+5 incluir scripts en package.json
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index",
+        "dev":"nodemon index"
+    },
+
+6 crear la app en index.js
+    const exp = require('express');
+
+    const app = exp();
+
+    app.listen(9888);
